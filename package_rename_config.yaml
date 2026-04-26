@@ -1,0 +1,9 @@
+package_rename_config:
+  android:
+    app_name: HDTC ON
+    package_name: com.hdtc_on.hdtc_on
+
+  ios:
+    app_name: HDTC ON
+    bundle_name: com.hdtc-on.app
+    package_name: com.hdtc-on.app

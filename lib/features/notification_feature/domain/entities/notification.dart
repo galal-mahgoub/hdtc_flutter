@@ -1,0 +1,29 @@
+import 'package:equatable/equatable.dart';
+
+class Notification extends Equatable {
+  final int id;
+  final String title;
+  final String message;
+  final String type;
+  final String status;
+  final String createdAt;
+
+  const Notification({
+    required this.id,
+    required this.title,
+    required this.message,
+    required this.type,
+    required this.status,
+    required this.createdAt,
+  });
+
+  @override
+  List<Object?> get props => [
+        id,
+        title,
+        message,
+        type,
+        status,
+        createdAt,
+      ];
+}

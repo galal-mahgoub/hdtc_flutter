@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303606227369",
+    "project_id": "hdtc-on-2c522",
+    "storage_bucket": "hdtc-on-2c522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303606227369:android:52997d17a434a6d94be4b8",
+        "android_client_info": {
+          "package_name": "com.hdtc_on.hdtc_on"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdGRWP-Z_XPBtaTMl1QegyvmL3EJYAjn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

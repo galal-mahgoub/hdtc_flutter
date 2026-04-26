@@ -1,0 +1,182 @@
+name: hdtc_on
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.4+9
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  pin_code_fields: ^8.0.1
+  country_code_picker: ^3.0.0
+  equatable: ^2.0.5
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  dartz: ^0.10.1
+  internet_connection_checker: ^1.0.0+1
+  get_storage: ^2.1.1
+  flutter_secure_storage: ^9.0.0
+  firebase_messaging: ^15.0.4
+  lottie: ^3.0.0
+  flutter_native_splash: ^2.3.10
+  firebase_core: ^3.3.0
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  timeago: ^3.6.1
+  image_picker: ^1.0.7
+  custom_sliding_segmented_control: ^1.8.1
+  expandable_page_view: ^1.0.17
+  intl: ^0.18.1
+  flutter_advanced_drawer: ^1.3.5
+  font_awesome_flutter: ^10.7.0
+  carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_screenutil: ^5.9.0
+  shimmer: ^3.0.0
+  infinite_scroll_pagination: ^4.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  syncfusion_flutter_datepicker: ^24.2.6
+  flutter_slidable: ^3.0.1
+  url_launcher: ^6.2.4
+  fl_chart: ^0.66.2
+  flutter_timer_countdown: ^1.0.7
+  add_2_calendar: ^3.0.1
+  dropdown_button2: ^2.3.9
+  webview_flutter: ^4.7.0
+  path_provider: ^2.1.2
+  flutter_downloader: ^1.11.6
+  permission_handler: ^11.3.0
+  file_picker: ^8.0.0
+  swipe_image_gallery: ^0.8.3
+  device_info_plus: ^9.1.2
+  flutter_html: ^3.0.0-beta.2
+  http: ^1.2.0
+  dio: ^4.0.6
+  pod_player: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  package_rename: ^1.5.3
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  #  image_path: "assets/images/icon-128x128.png"
+  image_path_android: "assets/images/icon-1024x1024.png"
+  image_path_ios: "assets/images/icon-1024x1024.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"
+  web:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+
+dependency_overrides:
+  intl: any
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+    - family: Somar
+      fonts:
+        - asset: assets/fonts/Somar-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Somar-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Somar-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Somar-Bold.otf
+          weight: 700
+
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700

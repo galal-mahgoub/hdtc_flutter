@@ -1,0 +1,2 @@
+/Users/galal2900/Applications/projects/hdtc/android/app/.cxx/Debug/5u1n2k6w/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/galal2900/Applications/projects/hdtc/android/app/.cxx/Debug/5u1n2k6w/arm64-v8a/CMakeFiles/rebuild_cache.dir

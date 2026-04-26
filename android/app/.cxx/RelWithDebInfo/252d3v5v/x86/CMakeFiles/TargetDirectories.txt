@@ -1,0 +1,2 @@
+/Users/galal2900/Applications/projects/hdtc/android/app/.cxx/RelWithDebInfo/252d3v5v/x86/CMakeFiles/edit_cache.dir
+/Users/galal2900/Applications/projects/hdtc/android/app/.cxx/RelWithDebInfo/252d3v5v/x86/CMakeFiles/rebuild_cache.dir
